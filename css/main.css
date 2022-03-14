@@ -2,10 +2,26 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #c9b5ab;
+  font-weight: normal;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+a,
+a:link {
+  colour: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
 }
 
 h1, h2 {
@@ -13,7 +29,7 @@ h1, h2 {
   color: #3f1622;
 }
 
-nav ol,a {
+nav ol, a {
   font-family: "PT Sans", sans-serif;
   text-decoration: none;
   font-size: 1.125rem;
@@ -40,5 +56,9 @@ blockquote {
 }
 
 .chris {
-  font-size: 0.8rem;
+  font-size: .8rem;
+}
+
+dt {
+  font-weight: bold;
 }

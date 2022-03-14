@@ -1,12 +1,26 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  background-color: #c9b5ab;
   font-weight: normal;
+  background-color: #c9b5ab;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1, h2 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #3f1622;
+}
+
+nav ol, a {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+  list-style-type: none;
+  text-decoration: none;
+  color: #8f2440;
 }
 
 a,
@@ -21,26 +35,14 @@ a:hover {
 }
 
 img {
+  align-items: center;
   width: 100%;
 }
 
-h1, h2 {
-  font-family: "PT Sans", sans-serif;
-  color: #3f1622;
-}
-
-nav ol, a {
-  font-family: "PT Sans", sans-serif;
-  text-decoration: none;
-  font-size: 1.125rem;
-  list-style-type: none;
-  color: #8f2440;
-}
-
 figcaption {
-  font-family: "PT Serif", italic;
   font-style: italic;
   text-align: center;
+  font-size: 1.125rem;
 }
 
 .dfn {
@@ -48,6 +50,10 @@ figcaption {
   font-weight: bold;
   font-size: 1.125rem;
   color: #3f1622;
+}
+
+main p {
+  font-size: 1.125rem;
 }
 
 blockquote {
@@ -59,6 +65,21 @@ blockquote {
   font-size: .8rem;
 }
 
+.varieties {
+  list-style-type: lower-greek;
+  font-size: 1.125rem;
+}
+
+.servings {
+  font-family: bold;
+  font-style: 1.125rem;
+}
+
 dt {
   font-weight: bold;
+  font-size: 1.125rem;
+}
+
+dd {
+  font-size: 1.125rem;
 }

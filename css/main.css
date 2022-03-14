@@ -3,6 +3,7 @@ html {
   line-height: 1.5;
   font-weight: normal;
   background-color: #c9b5ab;
+  font-family: "PT Serif";
 }
 
 *, *::before, *::after {
@@ -71,8 +72,8 @@ blockquote {
 }
 
 .servings {
-  font-family: bold;
-  font-style: 1.125rem;
+  font-family: "PT Serif";
+  font-size: 1.125rem;
 }
 
 dt {

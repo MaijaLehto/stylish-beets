@@ -8,11 +8,27 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+h1, h2 {
   font-family: "PT Sans", sans-serif;
   color: #3f1622;
 }
 
-nav {
+nav ol,a {
   font-family: "PT Sans", sans-serif;
+  text-decoration: none;
+  font-size: 1.125rem;
+  list-style-type: none;
+  color: #8f2440;
+}
+
+figcaption {
+  font-family: "PT Serif", italic;
+  font-style: italic;
+  text-align: center;
+}
+
+.dfn {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+  color: #3f1622;
 }
